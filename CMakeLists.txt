@@ -33,6 +33,8 @@ add_library(nana)
 add_library(nana::nana ALIAS nana)
 target_compile_features(nana PUBLIC cxx_std_17)
 # set(CMAKE_CXX_STANDARD 17)
+set(PNG_INCLUDE_DIRS ${CMAKE_CURRENT_LIST_DIR}/extrlib/include)
+set(PNG_LIBRARIES ${CMAKE_CURRENT_LIST_DIR}/extrlib/lib)
 
 #  need after cxx_std_14 or cxx_std_17 ??
 target_compile_features(nana

@@ -28,7 +28,6 @@ build/install_manifest.txt
 [Bb]in
 [Bb]in/
 [Dd]ebug*/
-*.lib
 *.a
 *.sbr
 obj/
@@ -37,7 +36,6 @@ _ReSharper*/
 [Tt]est[Rr]esult*
 *.suo
 *.sdf
-lib/
 *.ninja*
 CMakeCache.txt
 CMakeFiles/
@@ -46,7 +44,6 @@ cmake-build-*/
 .idea/
 cmake_install.cmake
 *.DS_Store
-
 *.db
 *.opendb
 .vscode
